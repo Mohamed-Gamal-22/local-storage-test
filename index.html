@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>control local storage</title>
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+  </head>
+
+  <body>
+    <div class="container p-5 text-capitalize bg-light my-5">
+      <input
+        type="text"
+        placeholder="enter local storage key for search"
+        class="form-control w-75 mx-auto"
+        id="key"
+      />
+      <div class="row mt-4 g-3 text-center">
+        <div class="col-lg-3 col-md-6">
+          <div class="btn btn-warning check px-4" id="check">check item</div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="btn btn-success add px-4" id="add">add item</div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="btn btn-danger delete" id="delete">delete item</div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="btn btn-info show text-wite" id="show">show item</div>
+        </div>
+      </div>
+
+      <div class="results w-75 mx-auto my-5 text-center pt-4">
+        <span class="fs-3">results here</span>
+      </div>
+    </div>
+
+    <script src="./custom.js"></script>
+  </body>
+</html>
